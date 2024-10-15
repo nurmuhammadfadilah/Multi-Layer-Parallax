@@ -10,7 +10,7 @@
 }
 
 .intro{
-    background-image: url(mountain1.jpg);
+    background-image: url(assets/mountain1.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 .content{
-    background-image: url(mountain2.jpg);
+    background-image: url(assets/mountain2.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -28,7 +28,7 @@
 }
 
 .footer{
-    background-image: url(mountain3.png);
+    background-image: url(assets/mountain3.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
