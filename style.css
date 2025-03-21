@@ -119,3 +119,77 @@ footer{
 p{
     color: white;
 }
+
+@media (max-width: 1024px) {
+    .title, .title-white {
+        font-size: 3em;
+        letter-spacing: 10px;
+    }
+
+    .description {
+        font-size: 1.2em;
+    }
+
+    .card-item {
+        width: 40%;
+    }
+
+    .img {
+        max-height: 120px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .title, .title-white {
+        font-size: 2.5em;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    .card-item {
+        width: 90%;
+    }
+
+    .img {
+        max-height: 100px;
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title, .title-white {
+        font-size: 3em;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    .card {
+        position: absolute;
+        margin-left: 25%;
+        top: 1050px;
+        flex-direction: column;
+    }
+
+    .card-item {
+        width: 100%; 
+    }
+
+    .img {
+        max-height: auto;
+        max-width: auto;
+    }
+
+    .bar {
+        height: 30vh;
+    }
+}
